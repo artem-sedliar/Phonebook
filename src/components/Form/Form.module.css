@@ -1,6 +1,7 @@
 .form {
   width: 333px;
-  border: 1px solid;
+  border: 1px solid #d1cccc;
+  border-radius: 13px;
   padding: 13px 11px;
 }
 
@@ -19,7 +20,7 @@
   border-radius: 3px;
 }
 .input:focus {
-  border: 1px solid #4985ff;
+  border: 1px solid #90ee90;
   outline: none;
   box-shadow: 0px 0px 10px rgb(111 111 111 / 55%);
 }
@@ -32,9 +33,9 @@
 }
 .button:hover,
 .button:focus {
-  background-color: #4985ff;
+  background-color: #90ee90;
   color: #fff;
-  border: 1px solid #4985ff;
+  border: 1px solid #90ee90;
   box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
     1px 4px 6px rgb(0 0 0 / 16%);
 }
